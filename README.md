@@ -11,14 +11,11 @@ The cleaner way to do it - RSA Key Generation from Ansible Server and Import the
 
 
 
-- First we will show you the legacy way to store user credentials as shown below
-
+- First we will show you the legacy way to store user credentials as shown below:
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/c4fed499-6b59-40a3-9c6c-a97747560ccc)
 
-
-
-Order of ansible operations for user authentication:
+User Credentials can be stored in multiple locations in the inventory file, here is the order of ansible operations for user authentication:
 
 1) It will take the host variables first if defined:
 
