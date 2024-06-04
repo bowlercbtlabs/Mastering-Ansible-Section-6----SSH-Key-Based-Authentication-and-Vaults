@@ -28,3 +28,8 @@ Order of ansible operations for user authentication:
 3) Lastly, it takes the common group variable:
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/f53e71d2-b150-42cb-952d-daa7df3ede8d)
+
+- Add the ansible_user to the playbook so you can demonstrate which user is trying to access the network device as shown below:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/14f69d6e-faef-44bf-ade6-25d71f76e20e)
+
