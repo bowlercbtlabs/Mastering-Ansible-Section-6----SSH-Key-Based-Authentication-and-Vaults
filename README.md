@@ -6,8 +6,9 @@ Mastering-Ansible-Section-6----SSH Key Based Authentication and Vaults
 SSH Key Based Authentication and Vaults
 ****
 
-Make a video on this showing the legacy way - hardcoded into the inventory file
-The cleaner way to do it - RSA Key Generation from Ansible Server and Import the key onto the target devices
+- The legacy way - user credentials hardcoded into the inventory file
+
+- The cleaner more secure way to do it - RSA Key Generation from Ansible Server and Import the key onto the target devices
 
 
 
