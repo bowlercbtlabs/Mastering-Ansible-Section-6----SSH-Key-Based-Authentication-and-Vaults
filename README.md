@@ -90,13 +90,19 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 - It is working, you have sucessfully created a RSA key based authentication connection to the Cisco device using key pair hosted from the Ubuntu/Ansible server
 
-- Now change your ansible inventory file to show the new username you created on the Cisco device 'ansible_admin':
+- Now change your ansible inventory file to tell ansible to use the new username you created on the Cisco device 'ansible_admin':
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/883e8018-a667-488a-a12e-2f2e88bbeac7)
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/cd27f808-f3e0-4743-99b3-62afce5b87b5)
 
 - By default ansible is able to find the default location of the RSA key pair, but you can tell ansible a custom RSA key pair location on your server by just adding the location of where to find the key such as the following example:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/588aad41-6eae-4e8e-92db-fe3f7d495a61)
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/bf304347-8908-46e5-9413-69b446a25867)
+
+
 
 
 
