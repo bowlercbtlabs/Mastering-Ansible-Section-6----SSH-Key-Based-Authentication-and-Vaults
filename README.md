@@ -94,4 +94,11 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/883e8018-a667-488a-a12e-2f2e88bbeac7)
 
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/cd27f808-f3e0-4743-99b3-62afce5b87b5)
+
+- By default ansible is able to find the default location of the RSA key pair, but you can tell ansible a custom RSA key pair location on your server by just adding the location of where to find the key such as the following example:
+
+
+
+
 
