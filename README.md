@@ -57,4 +57,8 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/f7d1cfdc-9bfe-4249-934c-7414fa80d63f)
 
-- 
+- In order to copy/paste the RSA key into the Cisco device we need to reformat the file using the 'fold' command as shown:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/247d5de3-1fe6-4d3e-8524-f4eca9ab07ab)
+
+
