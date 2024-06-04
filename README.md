@@ -33,5 +33,7 @@ Order of ansible operations for user authentication:
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/14f69d6e-faef-44bf-ade6-25d71f76e20e)
 
+- as you can see from the below output, admin2 is being used to authenticate to R1 and admin1 is being used to authenticate to R2
+
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/2fffba23-39f8-42a5-8bec-ea221eb19a1f)
 
