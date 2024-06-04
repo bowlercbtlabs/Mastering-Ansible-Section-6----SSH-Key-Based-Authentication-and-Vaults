@@ -61,4 +61,31 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/247d5de3-1fe6-4d3e-8524-f4eca9ab07ab)
 
+- Now copy the content into the target device:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/c8418195-9d76-42ed-9fb9-1eb1298c8287)
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/3b940c86-dc77-4b01-883f-b3dfbbdda2b7)
+
+- Then give the user permissions:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/20cb60ab-d20e-4ad1-b132-49b73cf56503)
+
+- If you try to ssh now into the router it is still asking for the password:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/b88f7b86-970a-4d83-b892-467f8d2e4a8e)
+
+- This is because the Cisco device is running an older version of SSH, so we need to update the Ubuntu server to allow the connection:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/57c0ba29-da26-4783-a225-50043c9a9310)
+
+- Uncomment out this line and save the file:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/027ebf81-248a-47d7-bf79-e18b71660c1e)
+
+- Now try to ssh again to the Cisco device:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/d0d607c3-50f4-4165-a47d-9b213fff6c3b)
+
+- It is working, you have sucessfully created a key based authentication connection to the Cisco device using the Ubuntu/Ansible server
 
