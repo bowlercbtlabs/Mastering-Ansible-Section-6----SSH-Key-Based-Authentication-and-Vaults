@@ -11,7 +11,7 @@ The cleaner way to do it - RSA Key Generation from Ansible Server and Import the
 
 
 
-- First we will show you the legacy way to store user credentials as shown below:
+- First we will show you the legacy way to store user credentials as shown below in the sample inventory file:
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/c4fed499-6b59-40a3-9c6c-a97747560ccc)
 
@@ -47,3 +47,14 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/6cb28d32-5d60-4b12-adbe-902a2d782ef8)
 
+- We now see the public key file has been created (id_rsa.pub), this is what we import to the target devices:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/817f0454-9932-4340-9091-2d5c1647d22e)
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/8e2daff3-fc70-471d-852e-449fa6d7833f)
+
+- Login to the target device and run the following commands:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/f7d1cfdc-9bfe-4249-934c-7414fa80d63f)
+
+- 
