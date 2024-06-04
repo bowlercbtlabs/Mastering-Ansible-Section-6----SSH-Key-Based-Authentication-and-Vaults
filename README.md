@@ -7,7 +7,11 @@ SSH Key Based Authentication and Vaults
 ****
 
 Make a video on this showing the legacy way - hardcoded into the inventory file
-The cleaner way to do it - 
+The cleaner way to do it - RSA Key Generation from Ansible Server and Import the key onto the target devices
+
+
+
+- First we will show you the legacy way to store user credentials as shown below
 
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/c4fed499-6b59-40a3-9c6c-a97747560ccc)
@@ -36,4 +40,13 @@ Order of ansible operations for user authentication:
 - as you can see from the below output, admin2 is being used to authenticate to R1 and admin1 is being used to authenticate to R2
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/2fffba23-39f8-42a5-8bec-ea221eb19a1f)
+
+
+****
+Generate RSA Key and Import it to your target devices (Cisco routers in this example) 
+****
+
+- On the Ubuntu/Ansible device generate the RSA key pair:
+
+![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/6cb28d32-5d60-4b12-adbe-902a2d782ef8)
 
