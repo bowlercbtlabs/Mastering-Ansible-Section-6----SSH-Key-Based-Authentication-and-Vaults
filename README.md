@@ -87,5 +87,5 @@ Generate RSA Key and Import it to your target devices (Cisco routers in this exa
 
 ![image](https://github.com/bowlercbtlabs/Mastering-Ansible-Section-6----SSH-Key-Based-Authentication-and-Vaults/assets/120626722/d0d607c3-50f4-4165-a47d-9b213fff6c3b)
 
-- It is working, you have sucessfully created a key based authentication connection to the Cisco device using the Ubuntu/Ansible server
+- It is working, you have sucessfully created a RSA key based authentication connection to the Cisco device using key pair hosted from the Ubuntu/Ansible server
 
